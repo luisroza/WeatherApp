@@ -35,10 +35,5 @@ namespace WeatherApp.Business.Services
                     .ToListAsync()
             };
         }
-
-        public void Dispose()
-        {
-            _context?.Dispose();
-        }
     }
 }
