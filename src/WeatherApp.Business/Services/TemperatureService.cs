@@ -36,10 +36,5 @@ namespace WeatherApp.Business.Services
                 Data = result
             };
         }
-
-        public void Dispose()
-        {
-            _context?.Dispose();
-        }
     }
 }
